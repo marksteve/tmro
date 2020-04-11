@@ -1,0 +1,10 @@
+payon,184,103,4	script	Arena	722,{
+  mes "[Arena]";
+  mes "Are you ready?";
+  menu "Yep!",yes,"Waits...",-;
+  close;
+yes:
+  savepoint("payon",184,100);
+  warp "guild_vs3",0,0;
+  close;
+}
