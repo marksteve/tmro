@@ -594,7 +594,7 @@ static unsigned int homunculus_add_intimacy(struct homun_data *hd, unsigned int 
 	if (battle_config.homunculus_friendly_rate != 100)
 		value = (value * battle_config.homunculus_friendly_rate) / 100;
 
-	value *= 5
+	value *= 5;
 
 	if (hd->homunculus.intimacy + value <= 100000)
 		hd->homunculus.intimacy += value;
