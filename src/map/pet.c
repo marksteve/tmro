@@ -111,7 +111,8 @@ static void pet_set_intimate(struct pet_data *pd, int value)
 	nullpo_retv(pd);
 	nullpo_retv(pd->msd);
 
-	value *= 5
+	value *= 5;
+
 	pd->pet.intimate = cap_value(value, PET_INTIMACY_NONE, PET_INTIMACY_MAX);
 
 	struct map_session_data *sd = pd->msd;
