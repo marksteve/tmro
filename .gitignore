@@ -122,3 +122,6 @@ Thumbs.db
 
 # config
 conf/global/sql_connection.conf
+
+# motd
+npc/MOTD.txt
