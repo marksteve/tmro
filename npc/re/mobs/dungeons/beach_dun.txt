@@ -39,7 +39,7 @@ beach_dun,0,0,0,0	monster	Medusa	1148,60,5000,0,0
 beach_dun,0,0,0,0	monster	Nereid	1255,20,5000,0,0
 beach_dun,0,0,0,0	monster	Pest	1256,20,5000,0,0
 beach_dun,0,0,0,0	monster	Merman	1264,3,5000,0,0
-beach_dun,0,0,0,0	boss_monster	Tao Gunka	1583,1,18000000,600000,0
+beach_dun,266,67,0,0	boss_monster	Tao Gunka	1583,1,1800000,600000,0
 
 //== beach_dun2 - Ruande the northern cave =================
 beach_dun2,0,0,0,0	monster	Stalactic Golem	1278,65,5000,0,0
